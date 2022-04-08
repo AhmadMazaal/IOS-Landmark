@@ -1,10 +1,3 @@
-//
-//  MapView.swift
-//  Landmarks
-//
-//  Created by ZIM Connections on 08/04/2022.
-//
-
 import SwiftUI
 import MapKit
 

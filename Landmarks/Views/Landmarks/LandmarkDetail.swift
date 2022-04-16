@@ -5,8 +5,9 @@ struct LandmarkDetail: View {
     @EnvironmentObject var modelData: ModelData;
     
     var landmarkIndex: Int {
-          modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
-      }
+        modelData.landmarks.firstIndex(
+            where: { $0.id == landmark.id })!
+    }
 
     var body: some View {
         ScrollView {

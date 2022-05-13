@@ -4,6 +4,7 @@ struct ProfileHost: View {
     @State private var draftProfile:Profile = Profile.default;
     @Environment(\.editMode) var editMode;
     @EnvironmentObject var modelData: ModelData;
+    
 
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {

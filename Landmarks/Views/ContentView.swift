@@ -13,7 +13,6 @@ struct ContentView: View {
                     Label("Featured", systemImage: "list.bullet")
                 }
                 .tag(Tab.featured)
-
             LandmarkList()
                 .tabItem {
                     Label("List", systemImage: "star")
